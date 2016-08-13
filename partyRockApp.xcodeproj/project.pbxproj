@@ -111,7 +111,6 @@
 				1012D14A1D5D861B0026E0D3 /* Controller */,
 				1012D11C1D5D85200026E0D3 /* AppDelegate.swift */,
 				1012D1201D5D85200026E0D3 /* Main.storyboard */,
-				107999561D5DE8C2007F6FCE /* VideoVC.swift */,
 				1012D1231D5D85200026E0D3 /* Assets.xcassets */,
 				1012D1251D5D85200026E0D3 /* LaunchScreen.storyboard */,
 				1012D1281D5D85200026E0D3 /* Info.plist */,
@@ -141,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				1012D11E1D5D85200026E0D3 /* MainVC.swift */,
+				107999561D5DE8C2007F6FCE /* VideoVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";

@@ -158,14 +158,28 @@
                                     <constraint firstAttribute="height" constant="211" id="L6b-We-7ol"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVV-cd-NCb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="0w5-xh-hpb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Wc9-dz-buu" firstAttribute="top" secondItem="lDX-eZ-tuU" secondAttribute="top" id="0Wd-4m-ZSt"/>
+                            <constraint firstItem="cVV-cd-NCb" firstAttribute="trailing" secondItem="lDX-eZ-tuU" secondAttribute="trailingMargin" constant="5" id="4q0-yc-gj2"/>
                             <constraint firstAttribute="trailing" secondItem="Wc9-dz-buu" secondAttribute="trailing" id="W0B-WD-ZfM"/>
+                            <constraint firstItem="cVV-cd-NCb" firstAttribute="top" secondItem="Wc9-dz-buu" secondAttribute="bottom" constant="50" id="ZJ1-A2-VaY"/>
                             <constraint firstItem="Wc9-dz-buu" firstAttribute="leading" secondItem="lDX-eZ-tuU" secondAttribute="leading" id="fjG-YC-j31"/>
+                            <constraint firstItem="cVV-cd-NCb" firstAttribute="leading" secondItem="lDX-eZ-tuU" secondAttribute="leadingMargin" constant="5" id="nlu-v8-sow"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLbl" destination="cVV-cd-NCb" id="Q2C-Zl-96S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="urC-op-PgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
